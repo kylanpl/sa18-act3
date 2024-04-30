@@ -19,4 +19,6 @@ from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('products/', views.index, name='product_list'),
+    path('products/<int:id>/', views.product_detail, name='product_detail')
 ]
