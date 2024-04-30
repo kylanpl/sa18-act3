@@ -1,7 +1,7 @@
 [
     {
         "model": "app.product",
-        "pk": 1,
+        "id": 1,
         "fields": {
             "name": "Product 1",
             "price": 100,
@@ -10,7 +10,7 @@
     },
     {
         "model": "app.product",
-        "pk": 2,
+        "id": 2,
         "fields": {
             "name": "Product 2",
             "price": 200,
@@ -19,7 +19,7 @@
     },
     {
         "model": "app.product",
-        "pk": 3,
+        "id": 3,
         "fields": {
             "name": "Product 3",
             "price": 300,
