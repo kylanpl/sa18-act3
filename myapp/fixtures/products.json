@@ -1,6 +1,6 @@
 [
     {
-        "model": "app.product",
+        "model": "myapp.product",
         "id": 1,
         "fields": {
             "name": "Product 1",
@@ -9,7 +9,7 @@
         }
     },
     {
-        "model": "app.product",
+        "model": "myapp.product",
         "id": 2,
         "fields": {
             "name": "Product 2",
@@ -18,7 +18,7 @@
         }
     },
     {
-        "model": "app.product",
+        "model": "myapp.product",
         "id": 3,
         "fields": {
             "name": "Product 3",
@@ -26,4 +26,4 @@
             "description": "Product 3 description"
         }
     }
-]
+]   
