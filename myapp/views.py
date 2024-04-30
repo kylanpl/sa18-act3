@@ -1,11 +1,12 @@
 from django.shortcuts import render
 from .models import Product
+from django.shortcuts import get_object_or_404
 # Create your views here.
 
-def product_list(request):
+def index(request):
     products = Product.objects.all()
-    return render(request, 'products/list.html', {'products': products})
+    return render(request, 'products/index.html', {'products': products})
 
-def product_detail(request, id):
-    product = Product.objects.get(id=id)
-    return render(request, 'products/detail.html', {'product': product})
+def show(request, id):
+    product = get_object_or_404(Product, id=id)
+    return render(request, 'products/show.html', {'product': product})
